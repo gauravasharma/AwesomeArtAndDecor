@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d357ea85.css",
+    "main.js": "/static/js/main.68d66f3c.js",
+    "static/media/homepage.PNG": "/static/media/homepage.2db772b29fcfe05d7b93.PNG",
+    "static/media/mariott.jpg": "/static/media/mariott.ab6df75f5c045ead30e2.jpg",
+    "static/media/culture.jpg": "/static/media/culture.fe81e2391a5114231482.jpg",
+    "static/media/values.jpg": "/static/media/values.4b653118908272064358.jpg",
+    "static/media/mission.jpg": "/static/media/mission.ee81a2d0ae58f41c65a4.jpg",
+    "static/media/sheraton.jpg": "/static/media/sheraton.021b0be1fa79e5ee679b.jpg",
+    "index.html": "/index.html",
+    "main.d357ea85.css.map": "/static/css/main.d357ea85.css.map",
+    "main.68d66f3c.js.map": "/static/js/main.68d66f3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d357ea85.css",
+    "static/js/main.68d66f3c.js"
+  ]
+}
