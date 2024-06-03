@@ -14,6 +14,9 @@ import sheraton from '../Images/sheraton.jpg'
 import mariott from '../Images/mariott.jpg'
 import Image from 'react-bootstrap/Image';
 
+import React from 'react'
+import ReactPlayer from 'react-player'
+
 export default function Home()
 {
      return (
@@ -29,7 +32,7 @@ export default function Home()
                         <Stack direction="horizontal" gap={2}>
                            <div>
                                 <Card style={{borderRadius: '0px',zIndex: '-2' }}>
-                                <Card.Img variant="top" src={mission} height='180rem' style={{borderRadius: '0px'}} />
+                                <Card.Img variant="top" src={mission} height='170rem' style={{borderRadius: '0px'}} />
                                 <Card.Body>
                                     <Card.Title>Misson</Card.Title>
                                     <Card.Text style= {{fontStyle:'italic', fontWeight:'300'}}>
@@ -41,7 +44,7 @@ export default function Home()
                            </div>
                            <div>
                                 <Card style={{ borderRadius: '0px',zIndex: '-2' }}>
-                                <Card.Img variant="top" src={values}  height='180rem' style={{borderRadius: '0px'}}/>
+                                <Card.Img variant="top" src={values}  height='170rem' style={{borderRadius: '0px'}}/>
                                 <Card.Body>
                                     <Card.Title>Values</Card.Title>
                                     <Card.Text style= {{fontStyle:'italic', fontWeight:'300',zIndex: '-1'}}>
@@ -53,7 +56,7 @@ export default function Home()
                            </div>
                            <div>
                                 <Card style={{borderRadius: '0px' ,zIndex: '-2'}}>
-                                <Card.Img variant="top" src={culture} height='180rem' style={{borderRadius: '0px'}} />
+                                <Card.Img variant="top" src={culture} height='170rem' style={{borderRadius: '0px'}} />
                                 <Card.Body>
                                     <Card.Title>Culture</Card.Title>
                                     <Card.Text style= {{fontStyle:'italic', fontWeight:'300'}}>
@@ -73,6 +76,20 @@ export default function Home()
             <Col>
                 <Row style={{marginBottom: '0.5rem'}}>
                     <Col >
+                    <Stack style={{paddingBottom:'0.5rem'}}>
+                    <div>
+                            <Card style={{  zIndex: '-1' ,borderRadius: '0px', backgroundColor:'#0f172a', color: 'white', fontFamily: 'Georgia, Times New Roman, Times, serif'}}>
+                            <Card.Body>
+                                <Card.Title >My Journey</Card.Title>
+                                <Card.Text>
+                                </Card.Text>
+                            </Card.Body>
+                            </Card>
+                    </div>
+                    <div style={{paddingTop:'0.065rem'}}>
+                      <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ'  width='100%' playsinline='true'/>
+                    </div>
+                    </Stack>
                     <Stack>
                         <div>
                             <Card style={{  zIndex: '-1' ,borderRadius: '0px', backgroundColor:'#0f172a', color: 'white', fontFamily: 'Georgia, Times New Roman, Times, serif'}}>
