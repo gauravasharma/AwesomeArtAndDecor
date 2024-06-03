@@ -2,7 +2,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import homepage from '../Images/homepage.PNG'
+import homepage from '../Images/homepage.png'
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import mission from '../Images/mission.jpg'
@@ -77,7 +77,7 @@ export default function Home()
                         <div>
                             <Card style={{  zIndex: '-1' ,borderRadius: '0px', backgroundColor:'#0f172a', color: 'white', fontFamily: 'Georgia, Times New Roman, Times, serif'}}>
                             <Card.Body>
-                                <Card.Title >Client & Partners</Card.Title>
+                                <Card.Title >Best Sellers</Card.Title>
                                 <Card.Text>
                                 </Card.Text>
                             </Card.Body>
