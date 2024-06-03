@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.d357ea85.css",
-    "main.js": "/static/js/main.83ad85c4.js",
+    "main.js": "/static/js/main.feff3214.js",
     "static/media/mariott.jpg": "/static/media/mariott.ab6df75f5c045ead30e2.jpg",
     "static/media/homepage.png": "/static/media/homepage.998bf118ab8cab27a506.png",
-    "static/media/mission.jpg": "/static/media/mission.1460cd5510d824939693.jpg",
+    "static/media/mission.jpg": "/static/media/mission.ce595b71bc794b2b4ba6.jpg",
     "static/media/sheraton.jpg": "/static/media/sheraton.021b0be1fa79e5ee679b.jpg",
     "static/media/culture.jpg": "/static/media/culture.b4ae00e209f2225d0ea8.jpg",
     "index.html": "/index.html",
     "main.d357ea85.css.map": "/static/css/main.d357ea85.css.map",
-    "main.83ad85c4.js.map": "/static/js/main.83ad85c4.js.map"
+    "main.feff3214.js.map": "/static/js/main.feff3214.js.map"
   },
   "entrypoints": [
     "static/css/main.d357ea85.css",
-    "static/js/main.83ad85c4.js"
+    "static/js/main.feff3214.js"
   ]
 }
