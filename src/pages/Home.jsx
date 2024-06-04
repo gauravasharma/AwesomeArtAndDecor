@@ -16,9 +16,16 @@ import Image from 'react-bootstrap/Image';
 
 import React from 'react'
 import ReactPlayer from 'react-player'
+import PhotoAlbum from "react-photo-album";
+import BirdArt from '../Images/BirdArt.jpg';
+import Acquarium from '../Images/Acquarium.jpg';
 
 export default function Home()
 {
+    const photos = [
+        { src: Acquarium , width: 400, height: 500 },
+        { src: BirdArt , width: 400, height: 500 },
+      ];
      return (
          <>       
           <Container fluid>
@@ -87,7 +94,7 @@ export default function Home()
                             </Card>
                     </div>
                     <div style={{paddingTop:'0.065rem'}}>
-                      <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ'  width='100%' playsinline='true'/>
+                      <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ'  width='100%' playsinline='true' loop='true' controls='true'/>
                     </div>
                     </Stack>
                     <Stack>
@@ -100,56 +107,10 @@ export default function Home()
                             </Card.Body>
                             </Card>
                         </div>
-                        <div >
-                            <Card style={{  zIndex: '-1', borderRadius: '0px'}}>
-                            <Card.Body>
-                                <Card.Text>
-                            <img src={hyatt} height="49rem" width="20%"></img>
-                            <span style={{float: 'right',fontFamily: 'Georgia, Times New Roman, Times, serif', fontWeight:100,fontStyle: 'Italic'}}>Partner since 2019 and delivering excellence.</span>
-                                </Card.Text>
-                            </Card.Body>
-                            </Card>
+                        <div style={{paddingTop:'0.5rem'}}>
+                          <PhotoAlbum layout="rows" photos={photos}  />
                         </div>
-                        <div >                       
-                            <Card style={{ zIndex: '-1', borderRadius: '0px'}}>
-                            <Card.Body>
-                                <Card.Text>
-                            <img src={sheraton} height="49rem" width="20%"></img>
-                            <span style={{float: 'right',fontFamily: 'Georgia, Times New Roman, Times, serif',fontWeight:100,fontStyle: 'Italic'}}>Partner since 2019 and delivering excellence.</span>
-                                </Card.Text>
-                            </Card.Body>
-                            </Card>
-                        </div>
-                        <div>
-                            <Card style={{zIndex: '-1', borderRadius: '0px'}}>
-                            <Card.Body>
-                                <Card.Text>
-                            <img src={mariott} height="49rem" width="20%"></img>
-                            <span style={{float: 'right',fontFamily: 'Georgia, Times New Roman, Times, serif',fontWeight:100,fontStyle: 'Italic'}}>Partner since 2019 and delivering excellence.</span>
-                                </Card.Text>
-                            </Card.Body>
-                            </Card>
-                        </div>
-                        <div>
-                            <Card style={{ zIndex: '-1',borderRadius: '0px'}}>
-                            <Card.Body>
-                                <Card.Text>
-                            <img src={hyatt} height="49rem" width="20%"></img>
-                            <span style={{float: 'right',fontFamily: 'Georgia, Times New Roman, Times, serif',fontWeight:100, fontStyle: 'Italic'}}>Partner since 2019 and delivering excellence.</span>
-                                </Card.Text>
-                            </Card.Body>
-                            </Card>
-                        </div>
-                        <div>
-                        <Card style={{zIndex: '-1',borderRadius: '0px'}}>
-                        <Card.Body>
-                            <Card.Text>
-                          <img src={hyatt} height="49rem" width="20%"></img>
-                          <span style={{float: 'right',fontFamily: 'Georgia, Times New Roman, Times, serif',fontWeight:100,fontStyle: 'Italic'}}>Partner since 2019 and delivering excellence.</span>
-                            </Card.Text>
-                        </Card.Body>
-                        </Card>
-                        </div>
+
                     </Stack>                       
                    </Col>
                 </Row>
