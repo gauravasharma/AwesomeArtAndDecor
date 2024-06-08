@@ -1,5 +1,4 @@
 import PhotoAlbum from "react-photo-album";
-import homepage from '../Images/homepage.jpg';
 import BirdArt from '../Images/BirdArt.jpg';
 import Acquarium from '../Images/Acquarium.jpg';
 import IMG_4660 from '../Images/IMG_4660.jpg'

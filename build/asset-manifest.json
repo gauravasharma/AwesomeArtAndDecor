@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d357ea85.css",
-    "main.js": "/static/js/main.e2e276de.js",
+    "main.js": "/static/js/main.d1c58e96.js",
     "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.e92917ad.chunk.js",
     "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.7a81cea7.chunk.js",
     "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.37397d6b.chunk.js",
@@ -26,6 +26,7 @@
     "static/media/IMG_4671.jpg": "/static/media/IMG_4671.0cef379ffd7bd3dd84e9.jpg",
     "static/media/IMG_4667.jpg": "/static/media/IMG_4667.47fc63bd8833ed917f40.jpg",
     "static/media/IMG_4666.jpg": "/static/media/IMG_4666.ecceabe40f7e8274ab5e.jpg",
+    "static/media/AboutImg.jpg": "/static/media/AboutImg.0643d741091742974a92.jpg",
     "static/media/Acquarium.jpg": "/static/media/Acquarium.e52d86af7783179d937a.jpg",
     "static/media/BirdArt.jpg": "/static/media/BirdArt.c07e2865a6c6c1af8daf.jpg",
     "static/media/homepage.jpg": "/static/media/homepage.b2b70b835f480f6fb893.jpg",
@@ -37,7 +38,7 @@
     "static/media/sheraton.jpg": "/static/media/sheraton.021b0be1fa79e5ee679b.jpg",
     "index.html": "/index.html",
     "main.d357ea85.css.map": "/static/css/main.d357ea85.css.map",
-    "main.e2e276de.js.map": "/static/js/main.e2e276de.js.map",
+    "main.d1c58e96.js.map": "/static/js/main.d1c58e96.js.map",
     "reactPlayerYouTube.e92917ad.chunk.js.map": "/static/js/reactPlayerYouTube.e92917ad.chunk.js.map",
     "reactPlayerSoundCloud.7a81cea7.chunk.js.map": "/static/js/reactPlayerSoundCloud.7a81cea7.chunk.js.map",
     "reactPlayerVimeo.37397d6b.chunk.js.map": "/static/js/reactPlayerVimeo.37397d6b.chunk.js.map",
@@ -55,6 +56,6 @@
   },
   "entrypoints": [
     "static/css/main.d357ea85.css",
-    "static/js/main.e2e276de.js"
+    "static/js/main.d1c58e96.js"
   ]
 }

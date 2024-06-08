@@ -43,7 +43,7 @@ export default function Home()
                                 <Card.Body>
                                     <Card.Title>Misson</Card.Title>
                                     <Card.Text style= {{fontStyle:'italic', fontWeight:'300'}}>
-                                    "To identify, analyze and recruit key resources that empower business to achieve their organizational goals, becoming their valued partner in success."
+                                    "To offer wide range of handcrafted products."
                                     </Card.Text>
                                     <Card.Link href="#" style={{color:'rgb(146 158 175)'}}>Read more</Card.Link>
                                 </Card.Body>
@@ -55,7 +55,7 @@ export default function Home()
                                 <Card.Body>
                                     <Card.Title>Values</Card.Title>
                                     <Card.Text style= {{fontStyle:'italic', fontWeight:'300',zIndex: '-1'}}>
-                                    Committed to excellence, integrity, client success and mutual respect, we empower business to achieve their organizational goals.
+                                    Be passionate and determined, and Pursue growth and learning.
                                     </Card.Text>
                                     <Card.Link href="#" style={{color:'rgb(146 158 175)'}}>Read more</Card.Link>
                                 </Card.Body>
@@ -67,7 +67,7 @@ export default function Home()
                                 <Card.Body>
                                     <Card.Title>Culture</Card.Title>
                                     <Card.Text style= {{fontStyle:'italic', fontWeight:'300'}}>
-                                    Customer-centric approach,collaboration, adaptability, respect, work-life balance, integrity, innovation, celebrating success and open communication
+                                    Customer-centric approach, integrity, innovation and celebrating success.
                                     </Card.Text >
                                     <Card.Link href="#" style={{color:'rgb(146 158 175)'}}>Read more</Card.Link>
                                 </Card.Body>
@@ -94,7 +94,7 @@ export default function Home()
                             </Card>
                     </div>
                     <div style={{paddingTop:'0.065rem'}}>
-                      <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ'  width='100%' playsinline='true' loop='true' controls='true'/>
+                      <ReactPlayer url='https://www.youtube.com/shorts/XcRveXEUvEo'  width='100%' playsinline='true' loop='true' controls='true'/>
                     </div>
                     </Stack>
                     <Stack>
