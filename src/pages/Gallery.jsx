@@ -1,3 +1,4 @@
+import Container from 'react-bootstrap/Container';
 import PhotoAlbum from "react-photo-album";
 import BirdArt from '../Images/BirdArt.jpg';
 import Acquarium from '../Images/Acquarium.jpg';
@@ -6,13 +7,12 @@ import IMG_4662 from '../Images/IMG_4662.jpg'
 import IMG_4663 from '../Images/IMG_4663.jpg'
 import IMG_4666 from '../Images/IMG_4666.jpg'
 import IMG_4667 from '../Images/IMG_4667.jpg'
-
 import IMG_4669 from '../Images/IMG_4669.jpg'
 import IMG_4671 from '../Images/IMG_4671.jpg'
-
 import IMG_4673 from '../Images/IMG_4673.jpg'
 import IMG_4674 from '../Images/IMG_4674.jpg'
 import IMG_4675 from '../Images/IMG_4675.jpg'
+import './Gallery.css';
 
 
 const photos = [
@@ -32,5 +32,11 @@ const photos = [
 ];
 
 export default function Gallery() {
-  return <div style={{padding:'0.5rem'}}><PhotoAlbum layout="masonry" photos={photos}  /></div>;
+  return (
+    <Container className="gallery-container">
+      <div className="gallery-content">
+        <PhotoAlbum layout="masonry" photos={photos} />
+      </div>
+    </Container>
+  );
 }

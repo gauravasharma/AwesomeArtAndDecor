@@ -1,0 +1,20 @@
+.gallery-container {
+    padding: 1rem;
+    max-width: 1200px;
+}
+
+.gallery-content {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .gallery-container {
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .gallery-container {
+        padding: 0.25rem;
+    }
+}
