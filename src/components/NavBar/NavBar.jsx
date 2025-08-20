@@ -27,16 +27,16 @@ export default function NavBar()
             </NavLink>
             <ul className = {menuOpen ? "open": ""}>
                 <li>
-                <NavLink to="/Gallery">Gallery</NavLink>
+                <NavLink to="/Gallery" onClick={() => setMenuOpen(false)}>Gallery</NavLink>
                 </li>
                 <li>
-                <NavLink to="/About">About</NavLink>
+                <NavLink to="/About" onClick={() => setMenuOpen(false)}>About</NavLink>
                 </li>
                 <li>
-                <NavLink to="/Contact">Contact</NavLink>
+                <NavLink to="/Contact" onClick={() => setMenuOpen(false)}>Contact</NavLink>
                 </li>
                 <li>
-                <NavLink to="/Login">Login</NavLink>
+                <NavLink to="/Login" onClick={() => setMenuOpen(false)}>Login</NavLink>
                 </li>
             </ul>
          </nav>
