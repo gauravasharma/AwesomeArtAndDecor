@@ -2,6 +2,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Carousel from 'react-bootstrap/Carousel';
 import homepage from '../Images/homepage.png'
 import Card from 'react-bootstrap/Card';
 import mission from '../Images/mission.jpg'
@@ -26,7 +27,19 @@ export default function Home() {
             <Row className="main-row">
                 <Col xs={12} lg={8} className="left-column">
                     <Row className="hero-section">
-                        <Col><Image src={homepage} className="hero-image" fluid/></Col>
+                        <Col>
+                            <Carousel className="hero-carousel" interval={4000}>
+                                <Carousel.Item>
+                                    <img className="d-block w-100 hero-image" src={homepage} alt="Homepage" />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className="d-block w-100 hero-image" src={BirdArt} alt="BirdArt" />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className="d-block w-100 hero-image" src={Acquarium} alt="Acquarium" />
+                                </Carousel.Item>
+                            </Carousel>
+                        </Col>
                     </Row>
                     <Row className="cards-section">
                         <Col>

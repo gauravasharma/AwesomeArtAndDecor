@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Gallery from './pages/Gallery';
 import About from './pages/About';
 import Contact from './pages/Contact'
+import Login from './pages/Login';
 import NavBar from './components/NavBar/NavBar';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/gallery" element = {<Gallery/>} />
         <Route path="/about" element = {<About/>} />
         <Route path="/contact" element = {<Contact/>} />
+        <Route path="/login" element = {<Login/>} />
       </Routes>
     </BrowserRouter>
 
